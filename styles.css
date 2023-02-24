@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(143, 165, 173);
+}
+
+
+.app {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question-box {
+    background-color: rgb(21, 21, 21);
+    margin: 15px;
+    color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 0 40px 10px 40px;
+}
+
+.pen {
+    width: 1.5rem;
+    height: 2rem;
+}
+
+.question-box h1 {
+    text-align: left;
+    color: rgb(93, 155, 206);
+}
+
+.question-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.question-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(67, 133, 208);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.question-button:disabled {
+    background-color: rgb(96, 110, 114);
+    color: rgb(161, 158, 158);
+}
+
+.answer-display {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-display.correct {
+    color: rgb(211, 211, 217);
+}
+
+.answer-display.wrong {
+    color: rgb(211, 134, 117);
+}
